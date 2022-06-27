@@ -1,0 +1,78 @@
+.banner{
+    width: 300px;
+    height: 250px;
+    background:url(1.jpg);
+    background-size: cover;
+    font-size: 18px;
+    color: #fff;
+    text-align: center;
+    padding: 40px 15px;
+  }
+  .msg{
+    font-size: 5em;
+    font-family: serif;
+    color:white;
+    text-align: center;
+    animation: animate 1.5s linear infinite;
+  } 
+ 
+  
+  .big-text{
+    font-size: 25px;
+    font-weight:30;
+    animation-delay: 1s;
+  }
+
+
+
+  
+  .banner a {
+    display: inline-block;
+    background:white;
+    color:red;
+    text-transform: uppercase;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 18px;
+    transition: .3s;
+
+  }
+  .banner a:hover {
+    background:red;
+    color: white;
+    padding: 15px 15px;
+  }
+  .wish {
+
+    padding: 10px;
+    font-size: 20px;
+    font-weight:30;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    animation: changeBackgroundColor 7s infinite;
+  }
+  @keyframes animate{
+    0%{
+      opacity: 0;
+    }
+    50%{
+      opacity: 0.7;
+    }
+    100%{
+      opacity: 0;
+    }
+  }
+
+  @keyframes changeBackgroundColor {
+    20% {
+      background-color: #5f39eb;
+    }
+    50% {
+      background-color: #f09012;
+    }
+    100% {
+      background-color: #09d3c9;
+    }
+  }  
